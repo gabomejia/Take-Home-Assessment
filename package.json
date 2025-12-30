@@ -4,10 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "npx playwright test",
-  "test:login": "npx playwright test --grep @login",
-  "test:positive": "npx playwright test --grep @positive",
-  "test:negative": "npx playwright test --grep @negative"
+    "test": "npx playwright test",
+    "test:login": "npx playwright test --grep @login",
+    "test:positive": "npx playwright test --grep @positive",
+    "test:negative": "npx playwright test --grep @negative",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results"
   },
   "keywords": [],
   "author": "",

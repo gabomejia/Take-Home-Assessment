@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3113","invalid password @negative","chromium","2025-12-30","passed","2025-12-30","Login @login","login.spec.js","",""
+"","3635","empty fields @negative","chromium","2025-12-30","passed","2025-12-30","Login @login","login.spec.js","",""
+"","1409","Back does not restore authenticated session @negative @bug-validation","chromium","2025-12-30","passed","2025-12-30","Login @login","login.spec.js","",""
+"","3967","successful login @positive","chromium","2025-12-30","passed","2025-12-30","Login @login","login.spec.js","",""
+"","1215","cannot access Secure Area without login @negative","chromium","2025-12-30","passed","2025-12-30","Login @login","login.spec.js","",""
+"","2969","invalid username @negative","chromium","2025-12-30","passed","2025-12-30","Login @login","login.spec.js","",""
