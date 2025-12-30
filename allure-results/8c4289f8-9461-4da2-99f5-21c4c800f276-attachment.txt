@@ -1,0 +1,1 @@
+🐛 BUG DOCUMENTED: Back button does not invalidate session properly

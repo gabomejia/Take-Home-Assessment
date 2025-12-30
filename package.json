@@ -1,0 +1,21 @@
+{
+  "name": "take-home-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "npx playwright test",
+  "test:login": "npx playwright test --grep @login",
+  "test:positive": "npx playwright test --grep @positive",
+  "test:negative": "npx playwright test --grep @negative"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "allure-playwright": "^3.4.3"
+  }
+}
