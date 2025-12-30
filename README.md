@@ -159,7 +159,6 @@ test('Back does not restore authenticated session @negative @bug-validation', as
 npx playwright show-report
 
 # Generate and view Allure report
-npm run allure:generate
 allure serve allure-results
 ```
 
