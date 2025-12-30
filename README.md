@@ -19,6 +19,10 @@ This project implements a comprehensive E2E test automation framework using **Pl
 - **Node.js** (v16 or higher)
 - **npm** or **yarn**
 - **Git**
+- **Allure Commandline** (for advanced reporting)
+  ```bash
+  npm install -g allure-commandline
+  ```
 
 ## 🛠️ Setup & Installation
 
@@ -154,8 +158,9 @@ test('Back does not restore authenticated session @negative @bug-validation', as
 # Open HTML report
 npx playwright show-report
 
-# Generate Allure report (if configured)
+# Generate and view Allure report
 npm run allure:generate
+allure serve allure-results
 ```
 
 ## 🔧 Configuration
