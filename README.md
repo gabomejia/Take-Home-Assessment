@@ -28,7 +28,7 @@ This project implements a comprehensive E2E test automation framework using **Pl
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/gabomejia/Take-Home-Assessment.git
 cd Take-Home-Assessment
 ```
 
