@@ -33,6 +33,8 @@ export default defineConfig({
   use: {
     baseURL: 'https://the-internet.herokuapp.com', // ✅ baseURL
     trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
   },
 
   /* Configure projects for major browsers */

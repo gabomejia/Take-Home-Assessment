@@ -21,6 +21,7 @@ test.describe('Login @login', () => {
     await login.enterUsername('test');
     await login.enterPassword(process.env.TEST_PASSWORD);
     await login.clickButton();
+    await expect(page).toHaveURL('https://the-internet.herokuapp.com/login');
     await expect(page.locator('#flash')).toContainText('Your username is invalid!') 
   });
 
@@ -30,6 +31,7 @@ test.describe('Login @login', () => {
     await login.enterUsername(process.env.TEST_USERNAME);
     await login.enterPassword('mala');
     await login.clickButton();
+    await expect(page).toHaveURL('https://the-internet.herokuapp.com/login');
     await expect(page.locator('#flash')).toContainText('Your password is invalid!') 
   });
 
@@ -39,6 +41,7 @@ test.describe('Login @login', () => {
     await login.enterUsername('');
     await login.enterPassword('');
     await login.clickButton();
+    await expect(page).toHaveURL('https://the-internet.herokuapp.com/login');
     await expect(page.locator('#flash')).toContainText('Your username is invalid!') 
   });
 
